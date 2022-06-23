@@ -1,0 +1,45 @@
+.heading2D{
+  text-align:left;
+  margin: 2rem;
+  font-size: 2rem;
+}
+// cube
+  .spin2 {
+    cursor: pointer;
+    transform-style: preserve-3d;
+  }
+  .spin2:hover {
+      animation: spin 5s linear infinite;
+  }
+  @keyframes spin2 {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  .cube2 {
+    position: relative;
+    width: 95px;
+    margin: 10rem;
+  }
+  .side2 {
+      height: 95px;
+      line-height: 95px;
+      position: absolute;
+      text-align: center;
+      width: 95px;
+  }
+  .top2 {
+    background: #f18532;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+  }
+  .left2 {
+    background:  #f1944d;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+  }
+  .right2 {
+    background:#f36b04;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+  }
