@@ -1,0 +1,38 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: skyblue;
+}
+.btn{
+    padding: 1rem 2rem;
+    a{
+        color: rgb(16, 11, 11);
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+   &-primary {
+    background-color: rgb(227, 240, 45);
+   }
+   &-secondary {
+    background-color: rgb(66, 246, 57);
+   }
+}
+.transformation{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+    text-transform: uppercase;
+    color: white;
+    &:hover{
+        color: coral;
+    }
+}
+.trans .btn{
+    margin:0 10rem;
+}
